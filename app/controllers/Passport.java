@@ -86,6 +86,7 @@ public class Passport extends Controller {
          *
          * @return null if validation ok, string with details otherwise
          */
+        /*
         public String validate() {
             if (isBlank(email)) {
                 return "Email is required";
@@ -101,7 +102,7 @@ public class Passport extends Controller {
 
             return null;
         }
-
+*/
         private boolean isBlank(String input) {
             return input == null || input.isEmpty() || input.trim().isEmpty();
         }
